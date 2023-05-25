@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.cover{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    border: 1px solid rgba(0 , 0 , 0 , 0.01) !important;
+    background-color: rgba(0 , 0 , 0 , 1) !important;
+    /* position: sticky;
+    top: 0px; */
+  
+}
+
+.navbar-brand{
+    color: rgb(243, 178, 12) !important;
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: 200;
+    width:30% !important;
+}
+
+.navbar-nav a{
+    font-size: 17px !important;
+    font-weight:300 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-align:center !important;
+    width: 190px !important;
+    color: white !important;
+    text-transform: uppercase !important;
+}
+
+.navbar-nav a:hover{
+    background-color:rgb(243, 178, 12) ;
+}
+
+.navbar-toggler-icon{
+    background-color: rgb(243, 178, 12)!important;
+    color: rgb(243, 178, 12) !important;
+}
+
+.btn{
+    width: 190px !important;
+    border-radius: -500px !important;
+}
+.dropdown li a{
+    color: rgb(102, 102, 102) !important;
+
+}
+.cover h1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color:white;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 3px 1px rgb(243, 178, 12);
+    font-size: 50px;
+    font-weight: 500;
+}
+.cover p{
+    position: absolute;
+    top: 170px;
+    left: 180px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 2px 1px rgb(243, 178, 12);
+    font-size: 30px;
+    font-weight:300;
+
+}
+.cover button{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+
+}

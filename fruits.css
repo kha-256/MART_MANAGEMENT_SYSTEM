@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    /* box-sizing: border-box; */
+}
+
+
+
+.navbar {
+    border: 1px solid rgba(0 , 0 , 0 , 0.01) !important;
+    background-color: rgba(0 , 0 , 0 , 1) !important;
+    /* position: sticky;
+    top: 0px; */
+  
+}
+
+.navbar-brand{
+    color: rgb(243, 178, 12) !important;
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: 200;
+    width:30% !important;
+}
+
+.navbar-nav a{
+    font-size: 17px !important;
+    font-weight:300 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-align:center !important;
+    width: 190px !important;
+    color: white !important;
+    text-transform: uppercase !important;
+}
+
+.navbar-nav a:hover{
+    background-color:rgb(243, 178, 12) ;
+}
+
+.navbar-toggler-icon{
+    background-color: rgb(243, 178, 12)!important;
+    color: rgb(243, 178, 12) !important;
+}
+
+.btn{
+    width: 190px !important;
+    border-radius: -500px !important;
+}
+.dropdown li a{
+    color: rgb(102, 102, 102) !important;
+
+}
+
+.card{
+    width: 20rem !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(102, 102, 102) ;
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+
+ }
+
+.card:hover{
+    border: 2px solid rgb(243, 178, 12);
+    
+}
+
+
+.card h1{
+    text-align: center !important;
+}
+
+.card-title{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    color: rgb(102, 102, 102) !important;
+    font-size: 30px;
+    font-weight:800;
+    text-transform: uppercase;
+    overflow-y: hidden;
+}
+
+h3{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    color: rgb(102, 102, 102) !important;
+    text-align: center !important;
+
+}
+#textbox{
+    text-align: center;
+}
+
+
+#textbox1{
+    text-align: center;
+}
+
+#textbox2{
+    text-align: center;
+}
+
+#textbox3{
+    text-align: center;
+}
+
+.product_name{
+    overflow-y: hidden;
+}
+
+
+.card img{
+    height: 14rem !important;
+}  
+
+.card-body a:hover{
+    text-decoration: underline;
+    color: rgb(243, 178, 12);
+}
+
+
+
+.copyright-box{
+    background-color:  black;
+    color: white;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    
+}
+
+.copyright-box p{
+    text-align: center;
+}   
+
+
